@@ -1,5 +1,10 @@
-# nota1 = float(input("Digite a sua nota: "))
-# nota2 = float(input("Digite sua segunda nota: "))
-# media = sum(nota1) / len(nota2)
-# print(media)
+def calcular_media(lst):
+    return sum(lst) / len(lst)
+def verificar_situacao(media):
+    if media >= 7:
+        return "Aprovado"
+    elif 5 <= media <= 6.9:
+        return "Recuperação"
+    elif media <5:
+        return "Reprovado"
 
