@@ -1,5 +1,5 @@
 from funcoes import *
-from tabulate import tabulate
+import tabulate
 lista_alunos = []
 while True:
     print ('''Menu:
@@ -21,29 +21,6 @@ while True:
     elif opcao == "2":
         print(lista_alunos)
     elif opcao == "0":
-        print("Sair do programa")
+        print("programa finalizado!")
         break
- 
-    
-
-    # opcao = input("Escolha a opcao: ")
-    # if opcao == "1":
-    #     nome = input("Digite o nome do aluno: ")
-    #     notas = []
-    #     for n in range(3):
-    #         nota = float(input("Digite as notas: "))
-    #         notas.append(nota)
-    #     aluno = {
-    #         "nome": nome,
-    #         "notas": notas
-    #     }
-    #     lista_alunos.append(aluno)
-    # elif opcao == "2":
-    #     for aluno in lista_alunos:
-    #         media = calcular_media(aluno["notas"])
-    #         situacao = verificar_situacao(media)
-    #         print(f"Aluno: {aluno['nome']}, Média: {media}, Situação: {situacao}")
-    # elif opcao == "0":
-    #     print("Saindo do programa...")
-     
-
+   
